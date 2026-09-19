@@ -1,0 +1,31 @@
+name: zone_coverage
+description: >-
+  Application de collecte de données GPS et de visualisation de zone couverte
+  ("pinceau géant") fonctionnant hors ligne sur Android, iOS et Windows.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0
+  flutter: ">=3.38.1"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_map: ^8.3.2
+  latlong2: ^0.9.1
+  geolocator: ^14.0.3
+  permission_handler: ^13.0.2
+  share_plus: ^13.3.0
+  path_provider: ^2.1.5
+  xml: ^7.0.1
+  clipper2: ^0.0.3
+  shared_preferences: ^2.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
